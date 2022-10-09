@@ -1,0 +1,18 @@
+header img {
+  display: flex;
+flex-direction: column;
+}
+nav .navigation {
+    background-color: rgb(223, 184, 184);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navigation a:hover{
+    font-weight: bold;
+}
