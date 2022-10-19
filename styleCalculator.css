@@ -1,0 +1,35 @@
+h2 {
+    background-color: aquamarine;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+ 
+}
+ #inputsize {
+   padding: 2vw 5vw;
+   border-radius: 8px;
+    border: solid black;
+
+}
+.row {
+    margin: 8px;
+
+}
+
+button {
+    appearance: initial;
+    width: 5vw;
+    margin: 0 6px;
+    font-size: 35px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 5px;
+}
