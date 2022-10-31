@@ -1,14 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 .heading {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     font-style: italic;
     font-size: 30px;
     display: flex;
     justify-content: center;
     height: 30px;
     width: 500px;
-    margin-left: 55vh;
+    /* margin-left: 325px; */
     font-weight: bold;
-    align-items: center;
+}
+
+.heading:hover {
+    background-color: aqua;
 }
 
 .MainContainer {
@@ -20,10 +28,11 @@
     padding-top: 20px;
 }
 
-#inputsize {
+.inputsize {
     padding: 20px 30px;
     border-radius: 8px;
     border: solid black;
+    box-shadow: 3px 3px 5px;
 }
 
 .row {
@@ -39,4 +48,7 @@ button {
     border-radius: 8px;
     border: 2px solid black;
     padding: 5px;
+    text-shadow: 3px 3px 5px;
+    box-shadow: 3px 4px 6px;
+    cursor: pointer;
 }
